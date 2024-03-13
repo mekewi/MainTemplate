@@ -1,0 +1,12 @@
+{
+  "name": "com.rashad.template",
+  "displayName": "Main Template",
+  "version": "1.0.0",
+  "dependencies": {
+  },
+  "author": {
+    "name": "Mohamed Rashad",
+    "email": "m.rashad.sm@gmail.com",
+    "url": "https://www.linkedin.com/in/mohamedmrashad/"
+  }
+}
