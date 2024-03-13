@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEditor;
 using UnityEngine;
-
+#if UNITY_EDITOR
 public class ArchitectureEditorWindow : EditorWindow
 {
     string type = "";
@@ -79,3 +79,4 @@ public class ArchitectureEditorWindow : EditorWindow
         return className;
     }
 }
+#endif

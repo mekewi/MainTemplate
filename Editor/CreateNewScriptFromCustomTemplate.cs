@@ -1,5 +1,5 @@
 ﻿using UnityEditor;
-
+#if UNITY_EDITOR
 public class CreateNewScriptFromCustomTemplate
 {
     private const string eventTemplatePath = "Assets/Editor/GameEvent.cs.txt";
@@ -16,3 +16,4 @@ public class CreateNewScriptFromCustomTemplate
         ProjectWindowUtil.CreateScriptAssetFromTemplateFile(eventListenerTemplatePath, "GameEventListener.cs");
     }
 }
+#endif
