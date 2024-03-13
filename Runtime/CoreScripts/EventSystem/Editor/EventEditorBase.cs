@@ -4,6 +4,7 @@ using UnityEngine.UIElements;
 
 namespace EventsSystem.Scripts.Editor
 {
+#if UNITY_EDITOR
     public abstract class EventEditorBase<T, TE> : UnityEditor.Editor
         where TE : Observable<T>
     {
@@ -29,4 +30,5 @@ namespace EventsSystem.Scripts.Editor
             return root;
         }
     }
+#endif
 }
