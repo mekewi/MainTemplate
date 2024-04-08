@@ -9,7 +9,7 @@ public class ArchitectureEditorWindow : EditorWindow
     string type = "";
     string savePath = "Assets/ProjectArchitectureBase/BaseScriptsRuntime/";
     string recordButton = "Create";
-    string editorPath = "Assets/ProjectArchitectureBase/Editor/";
+    string editorPath = "Packages/com.rashad.template/Editor/";
     string eventTemplate = "GameEvent.cs.txt";
     string eventListenerTemplate = "GameEventListener.cs.txt";
     string variableTemplate = "GameVariable.cs.txt";
