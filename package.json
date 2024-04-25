@@ -8,5 +8,12 @@
     "name": "Mohamed Rashad",
     "email": "m.rashad.sm@gmail.com",
     "url": "https://www.linkedin.com/in/mohamedmrashad/"
-  }
+  },
+  "samples": [
+    {
+      "displayName": "UIViews",
+      "description": "Contains samples for ViewBase",
+      "path": "Samples~/ViewsBase"
+    }
+  ]
 }

@@ -1,12 +1,6 @@
 ﻿using ProjectArchitectureBase.Event;
 using UnityEngine;
 using UnityEngine.UI;
-
-public enum ViewType 
-{
-    None,
-    UpgradeView,
-}
 public class UIViewBase : MonoBehaviour 
 {
     public ViewType viewType;
